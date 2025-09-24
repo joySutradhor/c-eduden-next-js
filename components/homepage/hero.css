@@ -1,0 +1,66 @@
+/* AboutOurMission.css */
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: transparent;
+  }
+  
+  .slider-container {
+    /* margin-top: 80px; */
+    /* Adjust this based on the height of your fixed navbar */
+  }
+  
+  .slick-slide {
+    transition: transform 0.5s ease;
+  }
+  
+  .slick-slide img {
+    /* width: 100%; */
+    object-fit: cover;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+  
+  .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 12px;
+    line-height: 10px;
+    padding-top: 10px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 10px;
+    height: 10px;
+    content: '•';
+    text-align: center;
+    opacity: 100;
+    color: #d9d9d9;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    opacity: 100;
+    color: #ffd300;
+  }
+  
+  /* font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+  
