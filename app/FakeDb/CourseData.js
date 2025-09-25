@@ -116,6 +116,1059 @@ import { FiActivity } from 'react-icons/fi'
 
 export const CourseData = [
   {
+    id: 12,
+    lecture: '32+',
+    duration: '45 Days',
+    projects: '5+',
+
+    category: 'Cyber Security',
+    off: '15%',
+    title: 'Ethical Hacking for Beginners – 45 Days Hands-On Course',
+    rating: 5,
+    image:
+      'https://ik.imagekit.io/0lnr4mwox/cybersecurity1.webp?updatedAt=1744658798433',
+
+    crsDetails: `Think hacking is just for movie villains and hoodie-wearing geniuses? Think again. With Eduden’s beginner-friendly ethical hacking course in Kolkata, you’ll learn how to legally break into systems, find security flaws, and help companies fix them — all while building a career in cybersecurity.
+This is not a theory-dump. This is a fully hands-on ethical hacking course in West Bengal that teaches you how to think like a hacker, use real-world tools, and apply those skills to bug bounty programs, cybersecurity internships, or job-ready IT roles.
+If you’re searching for the best ethical hacking training in Kolkata, India — this is it. Practical. Powerful. And packed with projects.`,
+
+    overView:
+      'This 45-day ethical hacking course by Eduden is designed for total beginners who want to learn cybersecurity from scratch and enter one of the most in-demand industries in India. You’ll master the core hacking phases — from reconnaissance and vulnerability scanning to exploitation, report writing, and responsible disclosure.All training is based on real-world attack simulations and live lab environments using tools like Kali Linux, Burp Suite, Wireshark, Nmap, and Metasploit — making this one of the most practical cybersecurity courses for beginners in India.Whether your goal is to become a penetration tester, land your first cybersecurity job, or kick off your journey as a bug bounty hunter in India, this course will set you up with the exact skills needed.',
+
+    features: [
+      {
+        title1: '10+ Assignments',
+        description1:
+          '10+ assignments that simulate real attack scenarios — perfect for building your portfolio and practicing concepts outside the classroom.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Knowledge-check quizzes after each tool/module — test your progress and reinforce everything you have learned.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Weekly live sessions with industry professionals covering ethical hacking labs, career guidance, and Q&A with certified penetration testers'
+      },
+      {
+        title4: 'Projects',
+        description4: 'You’ll build 4 hands-on database applications.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaLinux },
+      { cid: 2, icon: FaSearch },
+      { cid: 3, icon: FaNetworkWired },
+      { cid: 4, icon: FaBug },
+      { cid: 4, icon: FaShieldAlt },
+      { cid: 4, icon: FaKey }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Introduction to Ethical Hacking' },
+      { cid: 2, c: ' Networking Basics for Hackers' },
+      { cid: 3, c: 'Reconnaissance & Intelligence Gathering' },
+      { cid: 4, c: 'Vulnerability Analysis' },
+      { cid: 5, c: ' Exploitation & Gaining Access' },
+      { cid: 6, c: ' Web Application Hacking' },
+      { cid: 7, c: ' WiFi Hacking & Social Engineering' },
+      { cid: 8, c: ' Reporting & Career Path' }
+    ],
+
+    img: 'https://ik.imagekit.io/0lnr4mwox/ethical%20hacking%202.webp?updatedAt=1744658805657',
+
+    Certificate:
+      'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.',
+    Access:
+      "Buying the course entitles you to access all course content. Once the period ends, you don't have to worry about recurring charges.",
+    interview:
+      'Positions in database management and engineering are in high demand. The confidence gained through mastering these concepts will help you navigate interviews with ease and secure roles in top tech companies.',
+    hoverBgColor: 'bg-blue-500'
+  },
+
+  {
+    id: 47,
+    lecture: '50+',
+    duration: '45 Days',
+    projects: 6,
+    category: 'Artificial Intelligence',
+    off: '15%',
+    title: 'Generative AI & Prompt Engineering – 45 Days Hands-On Course',
+    rating: 4.8,
+    image:
+      'https://ik.imagekit.io/0lnr4mwox/Generative-AI-&-Prompt-Engineering-1.webp?updatedAt=1744658807801',
+
+    crsDetails: `Master the future of AI by learning how to talk to it. In just 45 days, you'll gain hands-on experience with GPT-4, Claude, Gemini, and other LLMs. Learn prompt engineering, build AI tools and chatbots, automate workflows, and design GenAI-powered content – no coding required.`,
+
+    overView: `To help learners understand how to interact with, customize, and build tools using large language models (LLMs). The focus is on practical prompt design, chaining prompts, building chatbots, and using GenAI tools to create value — whether you're coding, designing, selling, or solving business problems.`,
+
+    join: [
+      {
+        id: 1,
+        title: 'Anyone curious about ChatGPT, AI tools, or building with LLMs'
+      },
+      {
+        id: 2,
+        title: 'Students and professionals (no coding experience required)'
+      },
+      { id: 3, title: 'Freelancers and content creators' },
+      { id: 4, title: 'Developers, marketers, analysts, educators' }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Design prompts, build workflows, and explore AI-powered automation tasks.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Quick assessments on prompt design, LLM behavior, and GenAI concepts.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'AI tool walkthroughs, live builds, and hands-on GenAI integration workshops.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Create prompt-based tools, chatbots, and automation workflows for real-world tasks.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaRobot },
+      { cid: 2, icon: FaNetworkWired },
+      { cid: 3, icon: FaCode },
+      { cid: 4, icon: FaLayerGroup }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Foundations of Generative AI & LLMs' },
+      { cid: 2, c: 'Prompt Engineering 101' },
+      { cid: 3, c: 'Using LLMs for Productivity & Content' },
+      { cid: 4, c: 'Building with OpenAI API & LangChain' },
+      { cid: 5, c: 'Integrating GenAI into Real Workflows' },
+      { cid: 6, c: 'Final Projects & Real-World Use Cases' }
+    ],
+
+    img: 'https://ik.imagekit.io/0lnr4mwox/Generative-AI-&-Prompt-Engineering-2.webp?updatedAt=1744658808387',
+
+    Certificate:
+      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+
+    Access:
+      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+
+    interview:
+      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+
+  {
+    id: 46,
+    lecture: '75+',
+    duration: '90 Days',
+    projects: 8,
+    category: 'Machine Learning',
+    off: '10%',
+    title: 'AI & Machine Learning with Python – 90 Days Job-Ready Career Track',
+    rating: 4.9,
+    image:
+      'https://ik.imagekit.io/0lnr4mwox/AI-&-Machine-Learning-with-Python-2.webp?updatedAt=1744658786039',
+
+    crsDetails: `Master AI and Machine Learning using Python over 90 days. Ideal for freshers, developers, or career switchers aiming to become AI Engineers or Data Scientists. Build ML models, visualize data, and deploy AI solutions — with a portfolio of real-world projects to back your skills.`,
+
+    overView: `To help learners build a strong foundation in AI & ML using Python, understand how to apply machine learning to real problems, and gain practical experience with data preprocessing, model building, evaluation, and deployment. You'll build a job-ready portfolio while learning the tools and algorithms used by AI engineers worldwide.`,
+
+    join: [
+      { id: 1, title: 'Students and freshers with basic Python knowledge' },
+      { id: 2, title: 'Working professionals switching to AI/ML' },
+      { id: 3, title: 'Developers looking to enter AI product teams' },
+      { id: 4, title: 'Entrepreneurs building data-driven products' }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Solve classification and regression problems, clean real datasets, and visualize insights.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Concept checks on ML theory, Python libraries, statistics, and neural networks.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Model walkthroughs, data science project reviews, and mentoring for job readiness.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Build models like fraud detectors, recommendation systems, and image classifiers.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaPython },
+      { cid: 2, icon: FaChartBar },
+      { cid: 3, icon: FaBrain },
+      { cid: 4, icon: FaCodeBranch }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Python for AI & Data Science' },
+      { cid: 2, c: 'Statistics & Math for Machine Learning' },
+      { cid: 3, c: 'Data Preprocessing & Feature Engineering' },
+      { cid: 4, c: 'Supervised Machine Learning' },
+      { cid: 5, c: 'Unsupervised Learning & Clustering' },
+      { cid: 6, c: 'Model Optimization & Evaluation' },
+      { cid: 7, c: 'Intro to Deep Learning & Neural Networks' },
+      { cid: 8, c: 'ML Model Deployment (Optional Add-On)' }
+    ],
+
+    img: 'https://ik.imagekit.io/0lnr4mwox/AI-&-Machine-Learning-with-Python1.webp?updatedAt=1744658785726',
+
+    Certificate:
+      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+
+    Access:
+      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+
+    interview:
+      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+
+  {
+    id: 51,
+    lecture: '60+',
+    duration: '60 Days',
+    projects: 6,
+    category: 'Data Science',
+    off: '10%',
+    title:
+      'Data Science & Analytics with Python + Power BI – 60 Days Career Track',
+    rating: 4.8,
+    image:
+      'https://ik.imagekit.io/0lnr4mwox/DATA%20SCIENCE%20(2).webp?updatedAt=1744658798729',
+
+    crsDetails: `This course is built for beginners, analysts, business students, and working professionals who want to enter the world of data-driven decision making. You'll learn how to collect, clean, analyze, and visualize data using Python and Power BI, and translate your insights into powerful business actions.
+No prior coding or analytics background? No problem. This course is beginner-friendly and focused on practical applications — not just theory.`,
+
+    overView: `To help learners build confidence and capability in working with structured and unstructured data, performing exploratory data analysis (EDA), creating dashboards, and extracting insights that drive business decisions.`,
+
+    join: [
+      { id: 1, title: 'Students, business grads, and freshers' },
+      {
+        id: 2,
+        title: 'Aspiring data analysts or business intelligence professionals'
+      },
+      {
+        id: 3,
+        title: 'Non-tech working professionals transitioning into data roles'
+      },
+      {
+        id: 4,
+        title: 'Freelancers, marketers, and managers seeking data literacy'
+      }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1: 'Practical hands-on exercises using Python and Power BI.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Assessments to reinforce data analysis and visualization concepts.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Interactive discussions on key concepts and real-life business cases.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Build real business dashboards and data analysis projects.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaChartBar },
+      { cid: 2, icon: FaPython },
+      { cid: 3, icon: FaDatabase },
+      { cid: 4, icon: FaLaptopCode }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Introduction to Data Science & Analytics' },
+      { cid: 2, c: 'Python for Data Analytics' },
+      { cid: 3, c: 'Data Visualization with Python' },
+      { cid: 4, c: 'SQL for Analysts (Structured Query Language)' },
+      { cid: 5, c: 'Power BI Dashboards & DAX' },
+      { cid: 6, c: 'Final Project + Reporting' }
+    ],
+
+    img: 'https://ik.imagekit.io/0lnr4mwox/DATA%20SCIENCE%20(1).webp?updatedAt=1744658798175',
+
+    Certificate:
+      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+
+    Access:
+      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+
+    interview:
+      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+
+  {
+    id: 3,
+    lecture: '24',
+    duration: '30 Days',
+    projects: '4',
+
+    category: 'Programming',
+    off: '10%',
+    title: 'Python Programming – Gateway to AI & Machine Learning',
+    rating: 4,
+    image:
+      'https://ik.imagekit.io/0lnr4mwox/python%20for%20AI.webp?updatedAt=1744796636740',
+
+    crsDetails: `Think coding is scary? Not here. This course is built for the curious — the ones who want to automate tasks, play with data, or just finally understand what Python is all about. Whether you're a complete beginner or someone who's tried YouTube tutorials that made no sense — this is your clean, structured start into the world of code.We’ll teach you the real Python skills you need to build things — from calculators and automation scripts to your first AI-powered app. No fluff, just 30 days of practical learning that sets you up for freelancing, internships, or advanced tech courses in ML and Data Science.`,
+
+    curriculum: [
+      { cid: 1, c: 'Getting Started with Python' },
+      { cid: 2, c: 'Variables, Data Types & Operators' },
+      { cid: 3, c: 'Conditions & Loops' },
+      { cid: 4, c: 'Functions & Code Structuring' },
+      { cid: 5, c: ' Data Structures in Python' },
+      { cid: 6, c: ' File Handling & Python Automation' },
+      { cid: 7, c: 'Your First Steps Toward ML' },
+      { cid: 8, c: 'Final Project & GitHub Portfolio' }
+    ],
+
+    tools: [
+      { cid: 1, icon: SiPython },
+      { cid: 2, icon: VscVscode },
+      { cid: 3, icon: SiJupyter },
+      { cid: 4, icon: SiGithub }
+    ],
+
+    features: [
+      {
+        title1: '10+ Assignments',
+        description1:
+          '10+ coding assignments uploaded to GitHub or shared in Slack. Designed for logic building and skill development.'
+      },
+      {
+        title2: '15+ Quizzes',
+        description2:
+          'Each module comes with short quizzes and brain teasers to lock in your learning and keep it fun'
+      },
+      {
+        title3: 'Live sessions',
+        description3:
+          'Live weekly coding reviews + real-time debugging with mentors. You’ll never feel stuck or alone.'
+      },
+      {
+        title4: ' 4+ Projects',
+        description4: `You’ll work on 4 practical projects`
+      }
+    ],
+
+    overView:
+      'This hands-on Python course is designed to teach you the fundamentals of programming and help you transition into more advanced fields like AI, machine learning, or data analysis.We start from zero — no prior coding knowledge required — and walk you through the basics of variables, loops, functions, and file handling. You will write code daily, complete logic challenges, build working mini projects, and understand how Python is used to automate tasks and power real-world applications.By the end, you’ll be able to read and write clean Python code, solve beginner problems, and build projects that you can show off on GitHub or in interviews.',
+
+    img: 'https://ik.imagekit.io/0lnr4mwox/python1.webp?updatedAt=1744658816330',
+
+    Certificate:
+      'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.',
+    Access:
+      "Buying the course entitles you to access to all course content. Once the period ends, you don't have to worry about recurring charges.",
+    interview:
+      'Positions in Data Science and Machine Learning are in high demand in today’s competitive job market. As a Data Analyst, Machine Learning Engineer etc.The increased confidence gained through mastering these concepts will help you navigate interviews with ease!',
+    hoverBgColor: 'bg-green-500'
+  },
+
+  {
+    id: 44,
+    lecture: '50+',
+    duration: '45 Days',
+    projects: 6,
+    category: 'Blockchain',
+    off: '10%',
+    title: 'Blockchain Essentials – Learn & Build Decentralized Systems',
+    rating: 4.7,
+    image:
+      'https://ik.imagekit.io/0lnr4mwox/Blockchain-Essentials-2.webp?updatedAt=1744658790657',
+
+    crsDetails: `This beginner-to-intermediate blockchain course provides a solid foundation in decentralized systems and Ethereum smart contracts. Dive into cryptographic fundamentals, explore the EVM, and build dApps using Solidity and web3.js. Perfect for developers, tech enthusiasts, and aspiring Web3 entrepreneurs looking to break into the blockchain space.`,
+
+    overView: `To help learners understand the core concepts of blockchain technology, the Ethereum ecosystem, and how to build decentralized applications (dApps) using Solidity and smart contracts. By the end of this course, you’ll build and deploy your own smart contract, interact with the blockchain using web3.js or ethers.js, and have a solid foundation in the decentralized future.`,
+
+    join: [
+      {
+        id: 1,
+        title: 'Developers, computer science students, or tech enthusiasts'
+      },
+      {
+        id: 2,
+        title: 'Beginners with interest in crypto, NFTs, Web3, or DeFi'
+      },
+      { id: 3, title: 'Entrepreneurs looking to build Web3 startups' },
+      {
+        id: 4,
+        title: 'Freelancers and engineers entering the blockchain space'
+      }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Code smart contracts, simulate transactions, and integrate dApps with a frontend.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Test understanding of cryptographic principles, Solidity syntax, and Web3 logic.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Mentorship on Solidity, smart contract security, and dApp walkthroughs.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Deploy smart contracts, integrate MetaMask, and build real Web3 applications.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaCode },
+      { cid: 2, icon: FaCube },
+      { cid: 3, icon: FaWallet },
+      { cid: 4, icon: FaProjectDiagram }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Blockchain Fundamentals & Cryptography Basics' },
+      { cid: 2, c: 'Ethereum & Smart Contract Basics' },
+      { cid: 3, c: 'Solidity Programming & dApp Development' },
+      { cid: 4, c: 'Web3 Integration & Blockchain Frontend' },
+      { cid: 5, c: 'Real-World Blockchain Use Cases & Projects' },
+      { cid: 6, c: 'Final Project + Certification Prep' }
+    ],
+
+    img: 'https://ik.imagekit.io/0lnr4mwox/Blockchain-Essentials-1.webp?updatedAt=1744658790310',
+
+    Certificate:
+      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+
+    Access:
+      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+
+    interview:
+      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+
+  {
+    id: 38,
+    lecture: '40',
+    duration: '30 Days',
+    projects: 5,
+    category: 'IOT',
+    off: '10%',
+    title: 'IoT Foundations – 30 Days Hands-On Learning Program',
+    rating: 4.7,
+    image:
+      'https://ik.imagekit.io/0lnr4mwox/IoT-Foundations-1.webp?updatedAt=1744658808761',
+
+    crsDetails: `Get started with the Internet of Things by exploring smart device communication, microcontrollers, sensors, and cloud connectivity. This beginner-friendly course walks you through hands-on projects with Arduino and ESP boards, preparing you for real-world IoT solutions.`,
+
+    overView: `Whether you're a student, maker, or aspiring robotics engineer, this course gives you the foundational skills to build smart systems using microcontrollers, sensors, and cloud-based tools. Ideal for breaking into IoT, automation, or embedded systems.`,
+
+    join: [
+      {
+        id: 1,
+        title: 'Students (no coding/electronics background needed)'
+      },
+      {
+        id: 2,
+        title: 'Makers, inventors, and tech hobbyists'
+      },
+      {
+        id: 3,
+        title: 'Future robotics, electronics, or embedded engineers'
+      },
+      {
+        id: 4,
+        title: 'Professionals switching to IoT or automation domains'
+      }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Complete hands-on tasks like connecting sensors, setting up microcontrollers, and configuring networks for IoT solutions.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Test your understanding of IoT concepts such as cloud communication, networking protocols, and sensor integration after each module.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Engage in live, interactive sessions with experts to discuss IoT concepts, troubleshoot hardware issues, and enhance your projects.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Work on real-world IoT projects, building a complete system that connects sensors to the cloud and visualizes data on mobile dashboards.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaMicrochip },
+      { cid: 2, icon: FaWifi },
+      { cid: 3, icon: FaCloud },
+      { cid: 4, icon: FaNetworkWired },
+      { cid: 5, icon: FaTemperatureHigh }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Introduction to IoT & Ecosystem Overview' },
+      { cid: 2, c: 'Microcontrollers & Programming (Arduino/ESP)' },
+      { cid: 3, c: 'Sensors & Actuators in IoT' },
+      { cid: 4, c: 'Connectivity & Networking' },
+      { cid: 5, c: 'IoT & the Cloud' },
+      { cid: 6, c: 'Final Project + Real-World Applications' }
+    ],
+
+    img: 'https://ik.imagekit.io/0lnr4mwox/iot%201.webp?updatedAt=1744658808823',
+    Certificate:
+      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+
+    Access:
+      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+
+    interview:
+      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+
+  {
+    id: 45,
+    lecture: '80+',
+    duration: '90 Days',
+    projects: 9,
+    category: 'Big Data',
+    off: '10%',
+    title: 'Big Data Engineering – Hadoop, Spark, Kafka Career Track',
+    rating: 4.8,
+    image:
+      'https://ik.imagekit.io/0lnr4mwox/big-data-1.webp?updatedAt=1744658789924',
+
+    crsDetails: `A comprehensive 90-day program covering the full Big Data Engineering stack. Learn to manage massive datasets using Hadoop, Spark, Kafka, Airflow, and more. Build batch and real-time data pipelines, orchestrate workflows, and deploy cloud-based solutions. Ideal for aspiring Data Engineers and DataOps professionals.`,
+
+    overView: `To give learners the knowledge, tools, and real-world experience to work with large-scale datasets, build ETL pipelines, process real-time data streams, and prepare for roles like Big Data Engineer, Data Pipeline Developer, or DataOps Specialist. You'll go from foundational data concepts to building real pipelines with Hadoop, Spark, Kafka, and Airflow — all with hands-on projects, cloud integration, and GitHub-ready portfolio building.`,
+
+    join: [
+      { id: 1, title: 'Beginners with basic Python or SQL knowledge' },
+      { id: 2, title: 'Computer science students or recent graduates' },
+      { id: 3, title: 'Developers and system engineers transitioning to data' },
+      {
+        id: 4,
+        title:
+          'Professionals aiming for roles in data engineering, analytics, or ML ops'
+      }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Build ETL workflows, stream data from Kafka, and manage tasks with Airflow.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Concept checks on Hadoop, Spark internals, real-time streaming, and orchestration.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Walkthroughs of distributed processing, cluster management, and real-world pipeline building.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Deploy end-to-end data pipelines from ingestion to transformation and cloud deployment.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaServer },
+      { cid: 2, icon: FaCloud },
+      { cid: 3, icon: FaDatabase },
+      { cid: 4, icon: FaStream }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Big Data Foundations & Ecosystem Overview' },
+      { cid: 2, c: 'Hadoop & HDFS' },
+      { cid: 3, c: 'Apache Hive, Pig & MapReduce' },
+      { cid: 4, c: 'Apache Spark – Batch & Real-Time Processing' },
+      { cid: 5, c: 'Apache Kafka – Real-Time Data Streaming' },
+      { cid: 6, c: 'Orchestration with Apache Airflow' },
+      { cid: 7, c: 'NoSQL & File Formats for Big Data' },
+      { cid: 8, c: 'Cloud-Based Big Data Tools (AWS Focus)' },
+      { cid: 9, c: 'Final Capstone Project' }
+    ],
+
+    img: 'https://ik.imagekit.io/0lnr4mwox/big-data-2.webp?updatedAt=1744658789912',
+
+    Certificate:
+      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+
+    Access:
+      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+
+    interview:
+      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+
+  {
+    id: 30,
+    lecture: '60',
+    duration: '30 Days',
+    projects: 5,
+    category: 'Cloud Computing',
+    off: '10%',
+    title: 'Cloud Computing with AWS – Fundamentals (30 Days Hands-On)',
+    rating: 4.7,
+    image:
+      'https://ik.imagekit.io/0lnr4mwox/Cloud-Computing-with-AWS-1.webp?updatedAt=1744658795334',
+
+    crsDetails: `This course is designed for beginners who want to understand the fundamentals of cloud computing and how AWS delivers its cloud services. Through hands-on practice and guided instruction, you will learn how to create and manage cloud infrastructure using services like EC2, S3, IAM, and more.`,
+
+    overView: `To help learners understand what cloud computing is, how AWS delivers cloud services, and how to create and manage real cloud infrastructure — all from scratch. You’ll learn everything from theory to hands-on practice: launching servers, configuring storage, working with AWS services like EC2, S3, IAM, and more — all in a guided, no-fluff format.`,
+
+    join: [
+      {
+        id: 1,
+        title: 'Beginners with no prior cloud experience'
+      },
+      {
+        id: 2,
+        title: 'Students & freshers preparing for cloud-based careers'
+      },
+      {
+        id: 3,
+        title: 'IT support, system admins, or developers exploring cloud roles'
+      },
+      {
+        id: 4,
+        title:
+          'Freelancers & tech entrepreneurs wanting to deploy cloud projects'
+      }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Hands-on labs to deploy real cloud infrastructure using AWS services like EC2, S3, and RDS.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Test your knowledge on cloud computing concepts, AWS services, and best practices.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Interactive sessions with AWS professionals to guide you through the setup and configuration of AWS services.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Work on deploying cloud projects such as websites and databases on AWS.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaCloud },
+      { cid: 2, icon: FaAws },
+      { cid: 3, icon: FaTools },
+      { cid: 4, icon: FaServer },
+      { cid: 5, icon: FaDatabase }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Introduction to Cloud Computing & AWS' },
+      { cid: 2, c: 'Getting Started with AWS' },
+      { cid: 3, c: 'AWS Core Services – Compute, Storage, Networking' },
+      { cid: 4, c: 'Databases, Monitoring & Security' },
+      { cid: 5, c: 'High Availability & Serverless Concepts (Intro)' },
+      { cid: 6, c: 'Final Project + Interview Prep' }
+    ],
+
+    img: 'https://ik.imagekit.io/0lnr4mwox/Cloud-Computing-with-AWS-2.webp?updatedAt=1744658795503',
+
+    Certificate:
+      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+
+    Access:
+      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+
+    interview:
+      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+
+  {
+    id: 36,
+    lecture: '40',
+    duration: '30 Days',
+    projects: 4,
+    category: 'Linux',
+    off: '10%',
+    title: 'Linux Essentials – RHCE-Based Fundamentals',
+    rating: 4.7,
+    image:
+      'https://ik.imagekit.io/0lnr4mwox/RHCE-1.webp?updatedAt=1744658817346',
+
+    crsDetails: `A foundational course aligned with RHCSA (EX200) and RHCE (EX294), designed to equip learners with essential Linux skills for system administration, DevOps, and cloud roles. From terminal navigation to user management and networking, you’ll gain hands-on experience in real-world Linux environments.`,
+
+    overView: `Perfect for beginners, this course provides a comprehensive dive into Linux essentials. Learn terminal commands, manage users and services, configure basic networking, and get introduced to shell scripting—all through hands-on labs that prepare you for Red Hat certification and a Linux-based career path.`,
+
+    join: [
+      {
+        id: 1,
+        title: 'Students and freshers with no prior Linux experience'
+      },
+      {
+        id: 2,
+        title: 'DevOps, cloud, and cybersecurity aspirants'
+      },
+      {
+        id: 3,
+        title: 'Junior system administrators & support engineers'
+      },
+      {
+        id: 4,
+        title: 'Professionals preparing for RHCSA or RHCE'
+      }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Practice essential Linux commands and system tasks through guided assignments tailored to RHCE fundamentals.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Reinforce your understanding of Linux concepts and system operations with end-of-module quizzes.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Join interactive mentorship sessions to discuss RHCE topics, troubleshoot issues, and clarify technical concepts.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Build and configure real-world Linux environments through practical capstone projects aligned with RHCE standards.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaLinux },
+      { cid: 2, icon: FaTerminal },
+      { cid: 3, icon: FaRedhat },
+      { cid: 4, icon: FaNetworkWired },
+      { cid: 5, icon: FaUserShield }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Introduction to Linux' },
+      { cid: 2, c: 'Command Line Mastery' },
+      { cid: 3, c: 'User & Group Management' },
+      { cid: 4, c: 'Package Management & System Services' },
+      { cid: 5, c: 'Networking & Firewalls (RHCSA Scope)' },
+      { cid: 6, c: 'Shell Scripting Basics + Final Project' }
+    ],
+
+    img: 'https://ik.imagekit.io/0lnr4mwox/RHCE-2.webp?updatedAt=1744658817953',
+
+    Certificate:
+      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+
+    Access:
+      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+
+    interview:
+      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+  {
+    id: 34,
+    lecture: '30',
+    duration: '30 Days',
+    projects: 5,
+    category: 'DevOps',
+    off: '10%',
+    title: 'DevOps for Beginners – Foundation Track',
+    rating: 4.7,
+    image:
+      'https://ik.imagekit.io/0lnr4mwox/devops-2.webp?updatedAt=1744658801353',
+
+    crsDetails: `This course is designed to introduce you to the world of DevOps, providing you with the foundational tools and understanding to move into core DevOps roles. You'll learn essential tools like Linux, Git, GitHub, and Bash scripting, and grasp the DevOps mindset and workflows. The course prepares you for real-world DevOps tasks, with hands-on projects and practical skills.`,
+
+    overView: `In this foundational DevOps course, you'll learn the core concepts, tools, and methodologies that form the backbone of the DevOps ecosystem. From understanding the DevOps lifecycle to mastering essential tools like Linux, Git, and Bash scripting, you'll gain the confidence and skills to move forward into more advanced tools like Docker, Jenkins, AWS, and Kubernetes.`,
+
+    join: [
+      {
+        id: 1,
+        title: 'Freshers and students (no tech background needed)'
+      },
+      {
+        id: 2,
+        title: 'System Admins, Developers, or Testers upskilling for DevOps'
+      },
+      {
+        id: 3,
+        title: 'Tech enthusiasts, freelancers, or job-switchers'
+      },
+      {
+        id: 4,
+        title:
+          'Anyone curious about automation, pipelines, and modern IT workflows'
+      }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Hands-on labs and exercises to practice DevOps essentials.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Test your understanding of core DevOps concepts after each module.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Interactive sessions with instructors to clarify concepts and address questions.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Work on practical projects that demonstrate your newly acquired skills.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaLinux },
+      { cid: 2, icon: FaGit },
+      { cid: 3, icon: FaGithub },
+      { cid: 4, icon: SiGnubash },
+      { cid: 5, icon: FaJenkins }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'What is DevOps?' },
+      { cid: 2, c: 'Linux Essentials for DevOps' },
+      { cid: 3, c: 'Git & GitHub Version Control' },
+      { cid: 4, c: 'Shell Scripting for Automation' },
+      { cid: 5, c: 'DevOps Toolchain Overview' }
+    ],
+
+    img: 'https://ik.imagekit.io/0lnr4mwox/devops-1.webp?updatedAt=1744658800107',
+
+    Certificate:
+      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+
+    Access:
+      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+
+    interview:
+      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+  {
+    id: 20,
+    lecture: '30',
+    duration: '60 Days',
+    projects: 5, // Number of projects
+    category: 'Application Development',
+    off: '15%', // Random discount between 5% and 20%
+    title: 'Flutter App Development – 60 Days Hands-On Training',
+    rating: 4.7, // Random rating between 4 and 5
+    image:
+      'https://ik.imagekit.io/0lnr4mwox/flutter%20developer.webp?updatedAt=1744658805499',
+
+    crsDetails: `This 60-day hybrid course (Online or Offline at Eduden, Kolkata) is perfect for beginners to intermediate learners. You will be trained to develop cross-platform mobile applications using Flutter, covering everything from UI design and state management to working with APIs and Firebase. By the end of the course, you'll be equipped with the skills to build, deploy, and publish your own mobile apps on Android, iOS, and Web platforms.`,
+
+    overView: `To teach you how to build modern, responsive, real-world mobile applications using Flutter & Dart, and deploy them on Android, iOS, and Web — all with a single codebase. This is the perfect course for students, freelancers, and developers who want to enter the cross-platform mobile app market, without learning separate native languages for each OS.`,
+
+    join: [
+      { id: 1, title: 'Beginners with no prior app development experience' },
+      { id: 2, title: 'Web developers switching to mobile' },
+      { id: 3, title: 'Tech enthusiasts or freelancers' },
+      { id: 4, title: 'Anyone looking to build & publish their own apps' }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Hands-on projects building real-world apps using Flutter.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Short quizzes to test your understanding of concepts like Flutter widgets, APIs, Firebase, and state management.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Interactive live coding sessions with experts and Q&A to resolve your queries.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Multiple practical projects including weather apps, blog readers, and a final capstone project.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaFolderOpen },
+      { cid: 2, icon: FaMobileAlt },
+      { cid: 3, icon: FaCloud },
+      { cid: 4, icon: FaDatabase },
+      { cid: 5, icon: FaCode },
+      { cid: 6, icon: FaUserTie }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Introduction to Flutter & Dart' },
+      { cid: 2, c: 'UI Design & Layouts' },
+      { cid: 3, c: 'State Management & Forms' },
+      { cid: 4, c: 'Working with APIs & Firebase' },
+      { cid: 5, c: 'App Deployment & Final Project' }
+    ],
+
+    img: 'https://ik.imagekit.io/0lnr4mwox/Flutter%20App%20Development.webp?updatedAt=1744796640862',
+
+    Certificate:
+      'Students who complete all assignments, projects, and pass the final exam with a minimum 80% will receive a certification of completion.',
+
+    Access:
+      'With the purchase of the course, you gain lifetime access to all the course material and can review it whenever you need to refresh your knowledge.',
+    interview:
+      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+
+  {
+    id: 27,
+    lecture: '50',
+    duration: '90 Days',
+    projects: 10,
+    category: 'Networking',
+    off: '10%',
+    title: 'Networking Zero – Foundation Course (Based on CCNA Syllabus)',
+    rating: 4.8,
+    image:
+      'https://ik.imagekit.io/0lnr4mwox/ccna1.webp?updatedAt=1744658790171',
+
+    crsDetails: `A comprehensive 90-day hybrid course (Online & Offline at Eduden, Kolkata) designed to provide a strong foundation in computer networking. Aligned with the CCNA syllabus, this course will teach students to configure, troubleshoot, and design networks, covering everything from routers and IP addresses to VLANs and network security.`,
+
+    overView: `To give students a strong foundation in computer networking, aligned with the CCNA syllabus, while focusing on hands-on configuration, troubleshooting, and network design. From routers and IP addresses to VLANs and security — this course turns complete beginners into confident network technicians or support engineers.`,
+
+    join: [
+      {
+        id: 1,
+        title: 'Beginners with no prior networking experience'
+      },
+      {
+        id: 2,
+        title: 'Students in tech, computer science, or BCA/MCA programs'
+      },
+      {
+        id: 3,
+        title: 'Professionals looking to get into IT infrastructure roles'
+      },
+      {
+        id: 4,
+        title: 'Anyone preparing for Cisco certifications (CCNA 200-301)'
+      }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Hands-on labs and practical tasks on network configuration and troubleshooting.'
+      },
+      {
+        title2: 'Quizzes',
+        description2:
+          'Test your networking knowledge with periodic assessments.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3:
+          'Interactive sessions with instructors to clarify concepts and practice real-world scenarios.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Work on a full network setup, including IP addressing, routing, and security configurations.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaNetworkWired },
+      { cid: 2, icon: FaTools },
+      { cid: 3, icon: FaLaptopCode },
+      { cid: 4, icon: FaShieldAlt },
+      { cid: 5, icon: FaTerminal }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Introduction to Networking & Network Devices' },
+      { cid: 2, c: 'IP Addressing & Subnetting' },
+      { cid: 3, c: 'Routing & Switching Basics' },
+      { cid: 4, c: 'Network Configuration & CLI Skills' },
+      { cid: 5, c: 'Network Security & Troubleshooting' },
+      { cid: 6, c: 'Real-World Scenarios & Final Simulation' }
+    ],
+
+    img: 'https://ik.imagekit.io/0lnr4mwox/Networking%20Zero%20_%20Foundation%20Course.webp?updatedAt=1744796636852',
+
+    Certificate:
+      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
+
+    Access:
+      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
+
+    interview:
+      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+
+  {
     id: 1,
     lecture: '30',
     duration: '45 Days',
@@ -188,6 +1241,88 @@ export const CourseData = [
   },
 
   {
+    id: 24,
+    lecture: '30',
+    duration: '30 Days',
+    projects: 5,
+    category: 'Digital Marketing',
+    off: '10%',
+    title: 'Digital Marketing Basics – 30 Days Hands-On Training',
+    rating: 4.6,
+    image:
+      'https://ik.imagekit.io/0lnr4mwox/Digital%20Marketing%202.webp?updatedAt=1744658803876',
+
+    crsDetails: `This 30-day hybrid course (Online & Offline at Eduden, Kolkata) introduces you to the core of digital marketing. Learn how to rank websites, grow social media, run ads, and send campaigns. Ideal for students, freelancers, creators, or startup founders ready to market any product, brand, or idea in the digital world.`,
+
+    overView: `Fast, practical, and beginner-friendly — this course will give you a complete understanding of digital marketing platforms, strategies, and tools. You’ll practice SEO, SMM, Email Marketing, and Ads setup through real-life use cases. Perfect for learners aiming to freelance, grow their personal brand, or land marketing roles.`,
+
+    join: [
+      {
+        id: 1,
+        title: 'No experience required'
+      },
+      {
+        id: 2,
+        title: 'Ideal for students, creators, freelancers, or entrepreneurs'
+      },
+      {
+        id: 3,
+        title: 'Great for people launching their first business or brand'
+      }
+    ],
+
+    features: [
+      {
+        title1: 'Assignments',
+        description1:
+          'Practice campaigns, blog optimization, email drafts, and more.'
+      },
+      {
+        title2: 'Quizzes',
+        description2: 'Topic-wise quizzes to reinforce marketing concepts.'
+      },
+      {
+        title3: 'Live Sessions',
+        description3: 'Interactive sessions with digital marketing experts.'
+      },
+      {
+        title4: 'Projects',
+        description4:
+          'Hands-on ad campaign creation, post scheduling, and analytics.'
+      }
+    ],
+
+    tools: [
+      { cid: 1, icon: FaGoogle },
+      { cid: 2, icon: FaFacebook },
+      { cid: 3, icon: FaInstagram },
+      { cid: 4, icon: FaMailBulk },
+      { cid: 5, icon: FaSearch },
+      { cid: 6, icon: FaChartLine }
+    ],
+
+    curriculum: [
+      { cid: 1, c: 'Introduction to Digital Marketing' },
+      { cid: 2, c: 'Search Engine Optimization (SEO)' },
+      { cid: 3, c: 'Social Media Marketing (SMM)' },
+      { cid: 4, c: 'Google Ads & Facebook Ads (Intro)' },
+      { cid: 5, c: 'Email Marketing & Automation' },
+      { cid: 6, c: 'Analytics, Reporting & Strategy' }
+    ],
+
+    img: 'https://ik.imagekit.io/0lnr4mwox/Digital%20Marketing%201.webp?updatedAt=1744658803059',
+
+    Certificate:
+      'Students who complete all training modules, hands-on assignments, and mock campaigns will receive a digital certificate of completion from Eduden.',
+
+    Access:
+      'You’ll have full access to session recordings, templates, resources, and assignments for lifetime through our learning dashboard.',
+
+    interview:
+      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
+  },
+
+  {
     id: 2,
     lecture: '48',
     duration: '90 Days',
@@ -245,74 +1380,6 @@ In 90 days, you’ll go from having no design experience to creating real-world 
       'This course is a complete journey into user interface and user experience design made practical, hands-on, and beginner-friendly. You will learn how to research, wireframe, design, prototype, and test interfaces across mobile apps and websites.  We’ll train you on tools like Figma, Adobe XD, Whimsical, and Notion, and guide you through real-life design challenges that simulate startup or freelance projects. Each module is project-driven, focused on design thinking, usability, aesthetics, and interaction. By the end, you will have a portfolio that screams “hire me”, and the confidence to walk into interviews or pitch to freelance clients like a pro.',
 
     img: 'https://ik.imagekit.io/0lnr4mwox/UIUX2.webp?updatedAt=1744658821933',
-
-    Certificate:
-      'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.',
-    Access:
-      "Buying the course entitles you to access to all course content. Once the period ends, you don't have to worry about recurring charges.",
-    interview:
-      'Positions in Data Science and Machine Learning are in high demand in today’s competitive job market. As a Data Analyst, Machine Learning Engineer etc.The increased confidence gained through mastering these concepts will help you navigate interviews with ease!',
-    hoverBgColor: 'bg-green-500'
-  },
-  {
-    id: 3,
-    lecture: '24',
-    duration: '30 Days',
-    projects: '4',
-
-    category: 'Programming',
-    off: '10%',
-    title: 'Python Programming – Gateway to AI & Machine Learning',
-    rating: 4,
-    image:
-      'https://ik.imagekit.io/0lnr4mwox/python%20for%20AI.webp?updatedAt=1744796636740',
-
-    crsDetails: `Think coding is scary? Not here. This course is built for the curious — the ones who want to automate tasks, play with data, or just finally understand what Python is all about. Whether you're a complete beginner or someone who's tried YouTube tutorials that made no sense — this is your clean, structured start into the world of code.We’ll teach you the real Python skills you need to build things — from calculators and automation scripts to your first AI-powered app. No fluff, just 30 days of practical learning that sets you up for freelancing, internships, or advanced tech courses in ML and Data Science.`,
-
-    curriculum: [
-      { cid: 1, c: 'Getting Started with Python' },
-      { cid: 2, c: 'Variables, Data Types & Operators' },
-      { cid: 3, c: 'Conditions & Loops' },
-      { cid: 4, c: 'Functions & Code Structuring' },
-      { cid: 5, c: ' Data Structures in Python' },
-      { cid: 6, c: ' File Handling & Python Automation' },
-      { cid: 7, c: 'Your First Steps Toward ML' },
-      { cid: 8, c: 'Final Project & GitHub Portfolio' }
-    ],
-
-    tools: [
-      { cid: 1, icon: SiPython },
-      { cid: 2, icon: VscVscode },
-      { cid: 3, icon: SiJupyter },
-      { cid: 4, icon: SiGithub }
-    ],
-
-    features: [
-      {
-        title1: '10+ Assignments',
-        description1:
-          '10+ coding assignments uploaded to GitHub or shared in Slack. Designed for logic building and skill development.'
-      },
-      {
-        title2: '15+ Quizzes',
-        description2:
-          'Each module comes with short quizzes and brain teasers to lock in your learning and keep it fun'
-      },
-      {
-        title3: 'Live sessions',
-        description3:
-          'Live weekly coding reviews + real-time debugging with mentors. You’ll never feel stuck or alone.'
-      },
-      {
-        title4: ' 4+ Projects',
-        description4: `You’ll work on 4 practical projects`
-      }
-    ],
-
-    overView:
-      'This hands-on Python course is designed to teach you the fundamentals of programming and help you transition into more advanced fields like AI, machine learning, or data analysis.We start from zero — no prior coding knowledge required — and walk you through the basics of variables, loops, functions, and file handling. You will write code daily, complete logic challenges, build working mini projects, and understand how Python is used to automate tasks and power real-world applications.By the end, you’ll be able to read and write clean Python code, solve beginner problems, and build projects that you can show off on GitHub or in interviews.',
-
-    img: 'https://ik.imagekit.io/0lnr4mwox/python1.webp?updatedAt=1744658816330',
 
     Certificate:
       'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.',
@@ -1021,78 +2088,6 @@ Looking for the best Django backend training in Kolkata, West Bengal, or anywher
       'Positions in database management and engineering are in high demand. The confidence gained through mastering these concepts will help you navigate interviews with ease and secure roles in top tech companies.',
     hoverBgColor: 'bg-blue-500'
   },
-  {
-    id: 12,
-    lecture: '32+',
-    duration: '45 Days',
-    projects: '5+',
-
-    category: 'Cyber Security',
-    off: '15%',
-    title: 'Ethical Hacking for Beginners – 45 Days Hands-On Course',
-    rating: 5,
-    image:
-      'https://ik.imagekit.io/0lnr4mwox/cybersecurity1.webp?updatedAt=1744658798433',
-
-    crsDetails: `Think hacking is just for movie villains and hoodie-wearing geniuses? Think again. With Eduden’s beginner-friendly ethical hacking course in Kolkata, you’ll learn how to legally break into systems, find security flaws, and help companies fix them — all while building a career in cybersecurity.
-This is not a theory-dump. This is a fully hands-on ethical hacking course in West Bengal that teaches you how to think like a hacker, use real-world tools, and apply those skills to bug bounty programs, cybersecurity internships, or job-ready IT roles.
-If you’re searching for the best ethical hacking training in Kolkata, India — this is it. Practical. Powerful. And packed with projects.`,
-
-    overView:
-      'This 45-day ethical hacking course by Eduden is designed for total beginners who want to learn cybersecurity from scratch and enter one of the most in-demand industries in India. You’ll master the core hacking phases — from reconnaissance and vulnerability scanning to exploitation, report writing, and responsible disclosure.All training is based on real-world attack simulations and live lab environments using tools like Kali Linux, Burp Suite, Wireshark, Nmap, and Metasploit — making this one of the most practical cybersecurity courses for beginners in India.Whether your goal is to become a penetration tester, land your first cybersecurity job, or kick off your journey as a bug bounty hunter in India, this course will set you up with the exact skills needed.',
-
-    features: [
-      {
-        title1: '10+ Assignments',
-        description1:
-          '10+ assignments that simulate real attack scenarios — perfect for building your portfolio and practicing concepts outside the classroom.'
-      },
-      {
-        title2: 'Quizzes',
-        description2:
-          'Knowledge-check quizzes after each tool/module — test your progress and reinforce everything you have learned.'
-      },
-      {
-        title3: 'Live Sessions',
-        description3:
-          'Weekly live sessions with industry professionals covering ethical hacking labs, career guidance, and Q&A with certified penetration testers'
-      },
-      {
-        title4: 'Projects',
-        description4: 'You’ll build 4 hands-on database applications.'
-      }
-    ],
-
-    tools: [
-      { cid: 1, icon: FaLinux },
-      { cid: 2, icon: FaSearch },
-      { cid: 3, icon: FaNetworkWired },
-      { cid: 4, icon: FaBug },
-      { cid: 4, icon: FaShieldAlt },
-      { cid: 4, icon: FaKey }
-    ],
-
-    curriculum: [
-      { cid: 1, c: 'Introduction to Ethical Hacking' },
-      { cid: 2, c: ' Networking Basics for Hackers' },
-      { cid: 3, c: 'Reconnaissance & Intelligence Gathering' },
-      { cid: 4, c: 'Vulnerability Analysis' },
-      { cid: 5, c: ' Exploitation & Gaining Access' },
-      { cid: 6, c: ' Web Application Hacking' },
-      { cid: 7, c: ' WiFi Hacking & Social Engineering' },
-      { cid: 8, c: ' Reporting & Career Path' }
-    ],
-
-    img: 'https://ik.imagekit.io/0lnr4mwox/ethical%20hacking%202.webp?updatedAt=1744658805657',
-
-    Certificate:
-      'Participants completing every assignment and the final exams with a minimum 50% mark will earn a course certificate. A digital copy of the certificate is available for download online. Hard copies will not be supplied.',
-    Access:
-      "Buying the course entitles you to access all course content. Once the period ends, you don't have to worry about recurring charges.",
-    interview:
-      'Positions in database management and engineering are in high demand. The confidence gained through mastering these concepts will help you navigate interviews with ease and secure roles in top tech companies.',
-    hoverBgColor: 'bg-blue-500'
-  },
 
   {
     id: 42,
@@ -1770,79 +2765,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
       }
     ]
   },
-  {
-    id: 20,
-    lecture: '30',
-    duration: '60 Days',
-    projects: 5, // Number of projects
-    category: 'Application Development',
-    off: '15%', // Random discount between 5% and 20%
-    title: 'Flutter App Development – 60 Days Hands-On Training',
-    rating: 4.7, // Random rating between 4 and 5
-    image:
-      'https://ik.imagekit.io/0lnr4mwox/flutter%20developer.webp?updatedAt=1744658805499',
 
-    crsDetails: `This 60-day hybrid course (Online or Offline at Eduden, Kolkata) is perfect for beginners to intermediate learners. You will be trained to develop cross-platform mobile applications using Flutter, covering everything from UI design and state management to working with APIs and Firebase. By the end of the course, you'll be equipped with the skills to build, deploy, and publish your own mobile apps on Android, iOS, and Web platforms.`,
-
-    overView: `To teach you how to build modern, responsive, real-world mobile applications using Flutter & Dart, and deploy them on Android, iOS, and Web — all with a single codebase. This is the perfect course for students, freelancers, and developers who want to enter the cross-platform mobile app market, without learning separate native languages for each OS.`,
-
-    join: [
-      { id: 1, title: 'Beginners with no prior app development experience' },
-      { id: 2, title: 'Web developers switching to mobile' },
-      { id: 3, title: 'Tech enthusiasts or freelancers' },
-      { id: 4, title: 'Anyone looking to build & publish their own apps' }
-    ],
-
-    features: [
-      {
-        title1: 'Assignments',
-        description1:
-          'Hands-on projects building real-world apps using Flutter.'
-      },
-      {
-        title2: 'Quizzes',
-        description2:
-          'Short quizzes to test your understanding of concepts like Flutter widgets, APIs, Firebase, and state management.'
-      },
-      {
-        title3: 'Live Sessions',
-        description3:
-          'Interactive live coding sessions with experts and Q&A to resolve your queries.'
-      },
-      {
-        title4: 'Projects',
-        description4:
-          'Multiple practical projects including weather apps, blog readers, and a final capstone project.'
-      }
-    ],
-
-    tools: [
-      { cid: 1, icon: FaFolderOpen },
-      { cid: 2, icon: FaMobileAlt },
-      { cid: 3, icon: FaCloud },
-      { cid: 4, icon: FaDatabase },
-      { cid: 5, icon: FaCode },
-      { cid: 6, icon: FaUserTie }
-    ],
-
-    curriculum: [
-      { cid: 1, c: 'Introduction to Flutter & Dart' },
-      { cid: 2, c: 'UI Design & Layouts' },
-      { cid: 3, c: 'State Management & Forms' },
-      { cid: 4, c: 'Working with APIs & Firebase' },
-      { cid: 5, c: 'App Deployment & Final Project' }
-    ],
-
-    img: 'https://ik.imagekit.io/0lnr4mwox/Flutter%20App%20Development.webp?updatedAt=1744796640862',
-
-    Certificate:
-      'Students who complete all assignments, projects, and pass the final exam with a minimum 80% will receive a certification of completion.',
-
-    Access:
-      'With the purchase of the course, you gain lifetime access to all the course material and can review it whenever you need to refresh your knowledge.',
-    interview:
-      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
-  },
   {
     id: 21,
     lecture: '30',
@@ -2089,87 +3012,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     interview:
       'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
-  {
-    id: 24,
-    lecture: '30',
-    duration: '30 Days',
-    projects: 5,
-    category: 'Digital Marketing',
-    off: '10%',
-    title: 'Digital Marketing Basics – 30 Days Hands-On Training',
-    rating: 4.6,
-    image:
-      'https://ik.imagekit.io/0lnr4mwox/Digital%20Marketing%202.webp?updatedAt=1744658803876',
 
-    crsDetails: `This 30-day hybrid course (Online & Offline at Eduden, Kolkata) introduces you to the core of digital marketing. Learn how to rank websites, grow social media, run ads, and send campaigns. Ideal for students, freelancers, creators, or startup founders ready to market any product, brand, or idea in the digital world.`,
-
-    overView: `Fast, practical, and beginner-friendly — this course will give you a complete understanding of digital marketing platforms, strategies, and tools. You’ll practice SEO, SMM, Email Marketing, and Ads setup through real-life use cases. Perfect for learners aiming to freelance, grow their personal brand, or land marketing roles.`,
-
-    join: [
-      {
-        id: 1,
-        title: 'No experience required'
-      },
-      {
-        id: 2,
-        title: 'Ideal for students, creators, freelancers, or entrepreneurs'
-      },
-      {
-        id: 3,
-        title: 'Great for people launching their first business or brand'
-      }
-    ],
-
-    features: [
-      {
-        title1: 'Assignments',
-        description1:
-          'Practice campaigns, blog optimization, email drafts, and more.'
-      },
-      {
-        title2: 'Quizzes',
-        description2: 'Topic-wise quizzes to reinforce marketing concepts.'
-      },
-      {
-        title3: 'Live Sessions',
-        description3: 'Interactive sessions with digital marketing experts.'
-      },
-      {
-        title4: 'Projects',
-        description4:
-          'Hands-on ad campaign creation, post scheduling, and analytics.'
-      }
-    ],
-
-    tools: [
-      { cid: 1, icon: FaGoogle },
-      { cid: 2, icon: FaFacebook },
-      { cid: 3, icon: FaInstagram },
-      { cid: 4, icon: FaMailBulk },
-      { cid: 5, icon: FaSearch },
-      { cid: 6, icon: FaChartLine }
-    ],
-
-    curriculum: [
-      { cid: 1, c: 'Introduction to Digital Marketing' },
-      { cid: 2, c: 'Search Engine Optimization (SEO)' },
-      { cid: 3, c: 'Social Media Marketing (SMM)' },
-      { cid: 4, c: 'Google Ads & Facebook Ads (Intro)' },
-      { cid: 5, c: 'Email Marketing & Automation' },
-      { cid: 6, c: 'Analytics, Reporting & Strategy' }
-    ],
-
-    img: 'https://ik.imagekit.io/0lnr4mwox/Digital%20Marketing%201.webp?updatedAt=1744658803059',
-
-    Certificate:
-      'Students who complete all training modules, hands-on assignments, and mock campaigns will receive a digital certificate of completion from Eduden.',
-
-    Access:
-      'You’ll have full access to session recordings, templates, resources, and assignments for lifetime through our learning dashboard.',
-
-    interview:
-      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
-  },
   {
     id: 25,
     lecture: '30',
@@ -2338,92 +3181,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     interview:
       'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
-  {
-    id: 27,
-    lecture: '50',
-    duration: '90 Days',
-    projects: 10,
-    category: 'Networking',
-    off: '10%',
-    title: 'Networking Zero – Foundation Course (Based on CCNA Syllabus)',
-    rating: 4.8,
-    image:
-      'https://ik.imagekit.io/0lnr4mwox/ccna1.webp?updatedAt=1744658790171',
 
-    crsDetails: `A comprehensive 90-day hybrid course (Online & Offline at Eduden, Kolkata) designed to provide a strong foundation in computer networking. Aligned with the CCNA syllabus, this course will teach students to configure, troubleshoot, and design networks, covering everything from routers and IP addresses to VLANs and network security.`,
-
-    overView: `To give students a strong foundation in computer networking, aligned with the CCNA syllabus, while focusing on hands-on configuration, troubleshooting, and network design. From routers and IP addresses to VLANs and security — this course turns complete beginners into confident network technicians or support engineers.`,
-
-    join: [
-      {
-        id: 1,
-        title: 'Beginners with no prior networking experience'
-      },
-      {
-        id: 2,
-        title: 'Students in tech, computer science, or BCA/MCA programs'
-      },
-      {
-        id: 3,
-        title: 'Professionals looking to get into IT infrastructure roles'
-      },
-      {
-        id: 4,
-        title: 'Anyone preparing for Cisco certifications (CCNA 200-301)'
-      }
-    ],
-
-    features: [
-      {
-        title1: 'Assignments',
-        description1:
-          'Hands-on labs and practical tasks on network configuration and troubleshooting.'
-      },
-      {
-        title2: 'Quizzes',
-        description2:
-          'Test your networking knowledge with periodic assessments.'
-      },
-      {
-        title3: 'Live Sessions',
-        description3:
-          'Interactive sessions with instructors to clarify concepts and practice real-world scenarios.'
-      },
-      {
-        title4: 'Projects',
-        description4:
-          'Work on a full network setup, including IP addressing, routing, and security configurations.'
-      }
-    ],
-
-    tools: [
-      { cid: 1, icon: FaNetworkWired },
-      { cid: 2, icon: FaTools },
-      { cid: 3, icon: FaLaptopCode },
-      { cid: 4, icon: FaShieldAlt },
-      { cid: 5, icon: FaTerminal }
-    ],
-
-    curriculum: [
-      { cid: 1, c: 'Introduction to Networking & Network Devices' },
-      { cid: 2, c: 'IP Addressing & Subnetting' },
-      { cid: 3, c: 'Routing & Switching Basics' },
-      { cid: 4, c: 'Network Configuration & CLI Skills' },
-      { cid: 5, c: 'Network Security & Troubleshooting' },
-      { cid: 6, c: 'Real-World Scenarios & Final Simulation' }
-    ],
-
-    img: 'https://ik.imagekit.io/0lnr4mwox/Networking%20Zero%20_%20Foundation%20Course.webp?updatedAt=1744796636852',
-
-    Certificate:
-      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
-
-    Access:
-      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
-
-    interview:
-      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
-  },
   {
     id: 28,
     lecture: '70',
@@ -2600,93 +3358,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     interview:
       'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
-  {
-    id: 30,
-    lecture: '60',
-    duration: '30 Days',
-    projects: 5,
-    category: 'Cloud Computing',
-    off: '10%',
-    title: 'Cloud Computing with AWS – Fundamentals (30 Days Hands-On)',
-    rating: 4.7,
-    image:
-      'https://ik.imagekit.io/0lnr4mwox/Cloud-Computing-with-AWS-1.webp?updatedAt=1744658795334',
 
-    crsDetails: `This course is designed for beginners who want to understand the fundamentals of cloud computing and how AWS delivers its cloud services. Through hands-on practice and guided instruction, you will learn how to create and manage cloud infrastructure using services like EC2, S3, IAM, and more.`,
-
-    overView: `To help learners understand what cloud computing is, how AWS delivers cloud services, and how to create and manage real cloud infrastructure — all from scratch. You’ll learn everything from theory to hands-on practice: launching servers, configuring storage, working with AWS services like EC2, S3, IAM, and more — all in a guided, no-fluff format.`,
-
-    join: [
-      {
-        id: 1,
-        title: 'Beginners with no prior cloud experience'
-      },
-      {
-        id: 2,
-        title: 'Students & freshers preparing for cloud-based careers'
-      },
-      {
-        id: 3,
-        title: 'IT support, system admins, or developers exploring cloud roles'
-      },
-      {
-        id: 4,
-        title:
-          'Freelancers & tech entrepreneurs wanting to deploy cloud projects'
-      }
-    ],
-
-    features: [
-      {
-        title1: 'Assignments',
-        description1:
-          'Hands-on labs to deploy real cloud infrastructure using AWS services like EC2, S3, and RDS.'
-      },
-      {
-        title2: 'Quizzes',
-        description2:
-          'Test your knowledge on cloud computing concepts, AWS services, and best practices.'
-      },
-      {
-        title3: 'Live Sessions',
-        description3:
-          'Interactive sessions with AWS professionals to guide you through the setup and configuration of AWS services.'
-      },
-      {
-        title4: 'Projects',
-        description4:
-          'Work on deploying cloud projects such as websites and databases on AWS.'
-      }
-    ],
-
-    tools: [
-      { cid: 1, icon: FaCloud },
-      { cid: 2, icon: FaAws },
-      { cid: 3, icon: FaTools },
-      { cid: 4, icon: FaServer },
-      { cid: 5, icon: FaDatabase }
-    ],
-
-    curriculum: [
-      { cid: 1, c: 'Introduction to Cloud Computing & AWS' },
-      { cid: 2, c: 'Getting Started with AWS' },
-      { cid: 3, c: 'AWS Core Services – Compute, Storage, Networking' },
-      { cid: 4, c: 'Databases, Monitoring & Security' },
-      { cid: 5, c: 'High Availability & Serverless Concepts (Intro)' },
-      { cid: 6, c: 'Final Project + Interview Prep' }
-    ],
-
-    img: 'https://ik.imagekit.io/0lnr4mwox/Cloud-Computing-with-AWS-2.webp?updatedAt=1744658795503',
-
-    Certificate:
-      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
-
-    Access:
-      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
-
-    interview:
-      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
-  },
   {
     id: 31,
     lecture: '90',
@@ -2943,92 +3615,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     interview:
       'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
-  {
-    id: 34,
-    lecture: '30',
-    duration: '30 Days',
-    projects: 5,
-    category: 'DevOps',
-    off: '10%',
-    title: 'DevOps for Beginners – Foundation Track',
-    rating: 4.7,
-    image:
-      'https://ik.imagekit.io/0lnr4mwox/devops-2.webp?updatedAt=1744658801353',
 
-    crsDetails: `This course is designed to introduce you to the world of DevOps, providing you with the foundational tools and understanding to move into core DevOps roles. You'll learn essential tools like Linux, Git, GitHub, and Bash scripting, and grasp the DevOps mindset and workflows. The course prepares you for real-world DevOps tasks, with hands-on projects and practical skills.`,
-
-    overView: `In this foundational DevOps course, you'll learn the core concepts, tools, and methodologies that form the backbone of the DevOps ecosystem. From understanding the DevOps lifecycle to mastering essential tools like Linux, Git, and Bash scripting, you'll gain the confidence and skills to move forward into more advanced tools like Docker, Jenkins, AWS, and Kubernetes.`,
-
-    join: [
-      {
-        id: 1,
-        title: 'Freshers and students (no tech background needed)'
-      },
-      {
-        id: 2,
-        title: 'System Admins, Developers, or Testers upskilling for DevOps'
-      },
-      {
-        id: 3,
-        title: 'Tech enthusiasts, freelancers, or job-switchers'
-      },
-      {
-        id: 4,
-        title:
-          'Anyone curious about automation, pipelines, and modern IT workflows'
-      }
-    ],
-
-    features: [
-      {
-        title1: 'Assignments',
-        description1:
-          'Hands-on labs and exercises to practice DevOps essentials.'
-      },
-      {
-        title2: 'Quizzes',
-        description2:
-          'Test your understanding of core DevOps concepts after each module.'
-      },
-      {
-        title3: 'Live Sessions',
-        description3:
-          'Interactive sessions with instructors to clarify concepts and address questions.'
-      },
-      {
-        title4: 'Projects',
-        description4:
-          'Work on practical projects that demonstrate your newly acquired skills.'
-      }
-    ],
-
-    tools: [
-      { cid: 1, icon: FaLinux },
-      { cid: 2, icon: FaGit },
-      { cid: 3, icon: FaGithub },
-      { cid: 4, icon: SiGnubash },
-      { cid: 5, icon: FaJenkins }
-    ],
-
-    curriculum: [
-      { cid: 1, c: 'What is DevOps?' },
-      { cid: 2, c: 'Linux Essentials for DevOps' },
-      { cid: 3, c: 'Git & GitHub Version Control' },
-      { cid: 4, c: 'Shell Scripting for Automation' },
-      { cid: 5, c: 'DevOps Toolchain Overview' }
-    ],
-
-    img: 'https://ik.imagekit.io/0lnr4mwox/devops-1.webp?updatedAt=1744658800107',
-
-    Certificate:
-      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
-
-    Access:
-      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
-
-    interview:
-      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
-  },
   {
     id: 35,
     lecture: '60',
@@ -3115,92 +3702,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     interview:
       'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
-  {
-    id: 36,
-    lecture: '40',
-    duration: '30 Days',
-    projects: 4,
-    category: 'Linux',
-    off: '10%',
-    title: 'Linux Essentials – RHCE-Based Fundamentals',
-    rating: 4.7,
-    image:
-      'https://ik.imagekit.io/0lnr4mwox/RHCE-1.webp?updatedAt=1744658817346',
 
-    crsDetails: `A foundational course aligned with RHCSA (EX200) and RHCE (EX294), designed to equip learners with essential Linux skills for system administration, DevOps, and cloud roles. From terminal navigation to user management and networking, you’ll gain hands-on experience in real-world Linux environments.`,
-
-    overView: `Perfect for beginners, this course provides a comprehensive dive into Linux essentials. Learn terminal commands, manage users and services, configure basic networking, and get introduced to shell scripting—all through hands-on labs that prepare you for Red Hat certification and a Linux-based career path.`,
-
-    join: [
-      {
-        id: 1,
-        title: 'Students and freshers with no prior Linux experience'
-      },
-      {
-        id: 2,
-        title: 'DevOps, cloud, and cybersecurity aspirants'
-      },
-      {
-        id: 3,
-        title: 'Junior system administrators & support engineers'
-      },
-      {
-        id: 4,
-        title: 'Professionals preparing for RHCSA or RHCE'
-      }
-    ],
-
-    features: [
-      {
-        title1: 'Assignments',
-        description1:
-          'Practice essential Linux commands and system tasks through guided assignments tailored to RHCE fundamentals.'
-      },
-      {
-        title2: 'Quizzes',
-        description2:
-          'Reinforce your understanding of Linux concepts and system operations with end-of-module quizzes.'
-      },
-      {
-        title3: 'Live Sessions',
-        description3:
-          'Join interactive mentorship sessions to discuss RHCE topics, troubleshoot issues, and clarify technical concepts.'
-      },
-      {
-        title4: 'Projects',
-        description4:
-          'Build and configure real-world Linux environments through practical capstone projects aligned with RHCE standards.'
-      }
-    ],
-
-    tools: [
-      { cid: 1, icon: FaLinux },
-      { cid: 2, icon: FaTerminal },
-      { cid: 3, icon: FaRedhat },
-      { cid: 4, icon: FaNetworkWired },
-      { cid: 5, icon: FaUserShield }
-    ],
-
-    curriculum: [
-      { cid: 1, c: 'Introduction to Linux' },
-      { cid: 2, c: 'Command Line Mastery' },
-      { cid: 3, c: 'User & Group Management' },
-      { cid: 4, c: 'Package Management & System Services' },
-      { cid: 5, c: 'Networking & Firewalls (RHCSA Scope)' },
-      { cid: 6, c: 'Shell Scripting Basics + Final Project' }
-    ],
-
-    img: 'https://ik.imagekit.io/0lnr4mwox/RHCE-2.webp?updatedAt=1744658817953',
-
-    Certificate:
-      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
-
-    Access:
-      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
-
-    interview:
-      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
-  },
   {
     id: 37,
     lecture: '50',
@@ -3289,91 +3791,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     interview:
       'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
-  {
-    id: 38,
-    lecture: '40',
-    duration: '30 Days',
-    projects: 5,
-    category: 'IOT',
-    off: '10%',
-    title: 'IoT Foundations – 30 Days Hands-On Learning Program',
-    rating: 4.7,
-    image:
-      'https://ik.imagekit.io/0lnr4mwox/IoT-Foundations-1.webp?updatedAt=1744658808761',
 
-    crsDetails: `Get started with the Internet of Things by exploring smart device communication, microcontrollers, sensors, and cloud connectivity. This beginner-friendly course walks you through hands-on projects with Arduino and ESP boards, preparing you for real-world IoT solutions.`,
-
-    overView: `Whether you're a student, maker, or aspiring robotics engineer, this course gives you the foundational skills to build smart systems using microcontrollers, sensors, and cloud-based tools. Ideal for breaking into IoT, automation, or embedded systems.`,
-
-    join: [
-      {
-        id: 1,
-        title: 'Students (no coding/electronics background needed)'
-      },
-      {
-        id: 2,
-        title: 'Makers, inventors, and tech hobbyists'
-      },
-      {
-        id: 3,
-        title: 'Future robotics, electronics, or embedded engineers'
-      },
-      {
-        id: 4,
-        title: 'Professionals switching to IoT or automation domains'
-      }
-    ],
-
-    features: [
-      {
-        title1: 'Assignments',
-        description1:
-          'Complete hands-on tasks like connecting sensors, setting up microcontrollers, and configuring networks for IoT solutions.'
-      },
-      {
-        title2: 'Quizzes',
-        description2:
-          'Test your understanding of IoT concepts such as cloud communication, networking protocols, and sensor integration after each module.'
-      },
-      {
-        title3: 'Live Sessions',
-        description3:
-          'Engage in live, interactive sessions with experts to discuss IoT concepts, troubleshoot hardware issues, and enhance your projects.'
-      },
-      {
-        title4: 'Projects',
-        description4:
-          'Work on real-world IoT projects, building a complete system that connects sensors to the cloud and visualizes data on mobile dashboards.'
-      }
-    ],
-
-    tools: [
-      { cid: 1, icon: FaMicrochip },
-      { cid: 2, icon: FaWifi },
-      { cid: 3, icon: FaCloud },
-      { cid: 4, icon: FaNetworkWired },
-      { cid: 5, icon: FaTemperatureHigh }
-    ],
-
-    curriculum: [
-      { cid: 1, c: 'Introduction to IoT & Ecosystem Overview' },
-      { cid: 2, c: 'Microcontrollers & Programming (Arduino/ESP)' },
-      { cid: 3, c: 'Sensors & Actuators in IoT' },
-      { cid: 4, c: 'Connectivity & Networking' },
-      { cid: 5, c: 'IoT & the Cloud' },
-      { cid: 6, c: 'Final Project + Real-World Applications' }
-    ],
-
-    img: 'https://ik.imagekit.io/0lnr4mwox/iot%201.webp?updatedAt=1744658808823',
-    Certificate:
-      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
-
-    Access:
-      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
-
-    interview:
-      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
-  },
   {
     id: 39,
     lecture: '120+',
@@ -3685,322 +4103,7 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     interview:
       'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
   },
-  {
-    id: 44,
-    lecture: '50+',
-    duration: '45 Days',
-    projects: 6,
-    category: 'Blockchain',
-    off: '10%',
-    title: 'Blockchain Essentials – Learn & Build Decentralized Systems',
-    rating: 4.7,
-    image:
-      'https://ik.imagekit.io/0lnr4mwox/Blockchain-Essentials-2.webp?updatedAt=1744658790657',
 
-    crsDetails: `This beginner-to-intermediate blockchain course provides a solid foundation in decentralized systems and Ethereum smart contracts. Dive into cryptographic fundamentals, explore the EVM, and build dApps using Solidity and web3.js. Perfect for developers, tech enthusiasts, and aspiring Web3 entrepreneurs looking to break into the blockchain space.`,
-
-    overView: `To help learners understand the core concepts of blockchain technology, the Ethereum ecosystem, and how to build decentralized applications (dApps) using Solidity and smart contracts. By the end of this course, you’ll build and deploy your own smart contract, interact with the blockchain using web3.js or ethers.js, and have a solid foundation in the decentralized future.`,
-
-    join: [
-      {
-        id: 1,
-        title: 'Developers, computer science students, or tech enthusiasts'
-      },
-      {
-        id: 2,
-        title: 'Beginners with interest in crypto, NFTs, Web3, or DeFi'
-      },
-      { id: 3, title: 'Entrepreneurs looking to build Web3 startups' },
-      {
-        id: 4,
-        title: 'Freelancers and engineers entering the blockchain space'
-      }
-    ],
-
-    features: [
-      {
-        title1: 'Assignments',
-        description1:
-          'Code smart contracts, simulate transactions, and integrate dApps with a frontend.'
-      },
-      {
-        title2: 'Quizzes',
-        description2:
-          'Test understanding of cryptographic principles, Solidity syntax, and Web3 logic.'
-      },
-      {
-        title3: 'Live Sessions',
-        description3:
-          'Mentorship on Solidity, smart contract security, and dApp walkthroughs.'
-      },
-      {
-        title4: 'Projects',
-        description4:
-          'Deploy smart contracts, integrate MetaMask, and build real Web3 applications.'
-      }
-    ],
-
-    tools: [
-      { cid: 1, icon: FaCode },
-      { cid: 2, icon: FaCube },
-      { cid: 3, icon: FaWallet },
-      { cid: 4, icon: FaProjectDiagram }
-    ],
-
-    curriculum: [
-      { cid: 1, c: 'Blockchain Fundamentals & Cryptography Basics' },
-      { cid: 2, c: 'Ethereum & Smart Contract Basics' },
-      { cid: 3, c: 'Solidity Programming & dApp Development' },
-      { cid: 4, c: 'Web3 Integration & Blockchain Frontend' },
-      { cid: 5, c: 'Real-World Blockchain Use Cases & Projects' },
-      { cid: 6, c: 'Final Project + Certification Prep' }
-    ],
-
-    img: 'https://ik.imagekit.io/0lnr4mwox/Blockchain-Essentials-1.webp?updatedAt=1744658790310',
-
-    Certificate:
-      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
-
-    Access:
-      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
-
-    interview:
-      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
-  },
-  {
-    id: 45,
-    lecture: '80+',
-    duration: '90 Days',
-    projects: 9,
-    category: 'Big Data',
-    off: '10%',
-    title: 'Big Data Engineering – Hadoop, Spark, Kafka Career Track',
-    rating: 4.8,
-    image:
-      'https://ik.imagekit.io/0lnr4mwox/big-data-1.webp?updatedAt=1744658789924',
-
-    crsDetails: `A comprehensive 90-day program covering the full Big Data Engineering stack. Learn to manage massive datasets using Hadoop, Spark, Kafka, Airflow, and more. Build batch and real-time data pipelines, orchestrate workflows, and deploy cloud-based solutions. Ideal for aspiring Data Engineers and DataOps professionals.`,
-
-    overView: `To give learners the knowledge, tools, and real-world experience to work with large-scale datasets, build ETL pipelines, process real-time data streams, and prepare for roles like Big Data Engineer, Data Pipeline Developer, or DataOps Specialist. You'll go from foundational data concepts to building real pipelines with Hadoop, Spark, Kafka, and Airflow — all with hands-on projects, cloud integration, and GitHub-ready portfolio building.`,
-
-    join: [
-      { id: 1, title: 'Beginners with basic Python or SQL knowledge' },
-      { id: 2, title: 'Computer science students or recent graduates' },
-      { id: 3, title: 'Developers and system engineers transitioning to data' },
-      {
-        id: 4,
-        title:
-          'Professionals aiming for roles in data engineering, analytics, or ML ops'
-      }
-    ],
-
-    features: [
-      {
-        title1: 'Assignments',
-        description1:
-          'Build ETL workflows, stream data from Kafka, and manage tasks with Airflow.'
-      },
-      {
-        title2: 'Quizzes',
-        description2:
-          'Concept checks on Hadoop, Spark internals, real-time streaming, and orchestration.'
-      },
-      {
-        title3: 'Live Sessions',
-        description3:
-          'Walkthroughs of distributed processing, cluster management, and real-world pipeline building.'
-      },
-      {
-        title4: 'Projects',
-        description4:
-          'Deploy end-to-end data pipelines from ingestion to transformation and cloud deployment.'
-      }
-    ],
-
-    tools: [
-      { cid: 1, icon: FaServer },
-      { cid: 2, icon: FaCloud },
-      { cid: 3, icon: FaDatabase },
-      { cid: 4, icon: FaStream }
-    ],
-
-    curriculum: [
-      { cid: 1, c: 'Big Data Foundations & Ecosystem Overview' },
-      { cid: 2, c: 'Hadoop & HDFS' },
-      { cid: 3, c: 'Apache Hive, Pig & MapReduce' },
-      { cid: 4, c: 'Apache Spark – Batch & Real-Time Processing' },
-      { cid: 5, c: 'Apache Kafka – Real-Time Data Streaming' },
-      { cid: 6, c: 'Orchestration with Apache Airflow' },
-      { cid: 7, c: 'NoSQL & File Formats for Big Data' },
-      { cid: 8, c: 'Cloud-Based Big Data Tools (AWS Focus)' },
-      { cid: 9, c: 'Final Capstone Project' }
-    ],
-
-    img: 'https://ik.imagekit.io/0lnr4mwox/big-data-2.webp?updatedAt=1744658789912',
-
-    Certificate:
-      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
-
-    Access:
-      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
-
-    interview:
-      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
-  },
-  {
-    id: 46,
-    lecture: '75+',
-    duration: '90 Days',
-    projects: 8,
-    category: 'Machine Learning',
-    off: '10%',
-    title: 'AI & Machine Learning with Python – 90 Days Job-Ready Career Track',
-    rating: 4.9,
-    image:
-      'https://ik.imagekit.io/0lnr4mwox/AI-&-Machine-Learning-with-Python-2.webp?updatedAt=1744658786039',
-
-    crsDetails: `Master AI and Machine Learning using Python over 90 days. Ideal for freshers, developers, or career switchers aiming to become AI Engineers or Data Scientists. Build ML models, visualize data, and deploy AI solutions — with a portfolio of real-world projects to back your skills.`,
-
-    overView: `To help learners build a strong foundation in AI & ML using Python, understand how to apply machine learning to real problems, and gain practical experience with data preprocessing, model building, evaluation, and deployment. You'll build a job-ready portfolio while learning the tools and algorithms used by AI engineers worldwide.`,
-
-    join: [
-      { id: 1, title: 'Students and freshers with basic Python knowledge' },
-      { id: 2, title: 'Working professionals switching to AI/ML' },
-      { id: 3, title: 'Developers looking to enter AI product teams' },
-      { id: 4, title: 'Entrepreneurs building data-driven products' }
-    ],
-
-    features: [
-      {
-        title1: 'Assignments',
-        description1:
-          'Solve classification and regression problems, clean real datasets, and visualize insights.'
-      },
-      {
-        title2: 'Quizzes',
-        description2:
-          'Concept checks on ML theory, Python libraries, statistics, and neural networks.'
-      },
-      {
-        title3: 'Live Sessions',
-        description3:
-          'Model walkthroughs, data science project reviews, and mentoring for job readiness.'
-      },
-      {
-        title4: 'Projects',
-        description4:
-          'Build models like fraud detectors, recommendation systems, and image classifiers.'
-      }
-    ],
-
-    tools: [
-      { cid: 1, icon: FaPython },
-      { cid: 2, icon: FaChartBar },
-      { cid: 3, icon: FaBrain },
-      { cid: 4, icon: FaCodeBranch }
-    ],
-
-    curriculum: [
-      { cid: 1, c: 'Python for AI & Data Science' },
-      { cid: 2, c: 'Statistics & Math for Machine Learning' },
-      { cid: 3, c: 'Data Preprocessing & Feature Engineering' },
-      { cid: 4, c: 'Supervised Machine Learning' },
-      { cid: 5, c: 'Unsupervised Learning & Clustering' },
-      { cid: 6, c: 'Model Optimization & Evaluation' },
-      { cid: 7, c: 'Intro to Deep Learning & Neural Networks' },
-      { cid: 8, c: 'ML Model Deployment (Optional Add-On)' }
-    ],
-
-    img: 'https://ik.imagekit.io/0lnr4mwox/AI-&-Machine-Learning-with-Python1.webp?updatedAt=1744658785726',
-
-    Certificate:
-      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
-
-    Access:
-      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
-
-    interview:
-      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
-  },
-  {
-    id: 47,
-    lecture: '50+',
-    duration: '45 Days',
-    projects: 6,
-    category: 'Artificial Intelligence',
-    off: '15%',
-    title: 'Generative AI & Prompt Engineering – 45 Days Hands-On Course',
-    rating: 4.8,
-    image:
-      'https://ik.imagekit.io/0lnr4mwox/Generative-AI-&-Prompt-Engineering-1.webp?updatedAt=1744658807801',
-
-    crsDetails: `Master the future of AI by learning how to talk to it. In just 45 days, you'll gain hands-on experience with GPT-4, Claude, Gemini, and other LLMs. Learn prompt engineering, build AI tools and chatbots, automate workflows, and design GenAI-powered content – no coding required.`,
-
-    overView: `To help learners understand how to interact with, customize, and build tools using large language models (LLMs). The focus is on practical prompt design, chaining prompts, building chatbots, and using GenAI tools to create value — whether you're coding, designing, selling, or solving business problems.`,
-
-    join: [
-      {
-        id: 1,
-        title: 'Anyone curious about ChatGPT, AI tools, or building with LLMs'
-      },
-      {
-        id: 2,
-        title: 'Students and professionals (no coding experience required)'
-      },
-      { id: 3, title: 'Freelancers and content creators' },
-      { id: 4, title: 'Developers, marketers, analysts, educators' }
-    ],
-
-    features: [
-      {
-        title1: 'Assignments',
-        description1:
-          'Design prompts, build workflows, and explore AI-powered automation tasks.'
-      },
-      {
-        title2: 'Quizzes',
-        description2:
-          'Quick assessments on prompt design, LLM behavior, and GenAI concepts.'
-      },
-      {
-        title3: 'Live Sessions',
-        description3:
-          'AI tool walkthroughs, live builds, and hands-on GenAI integration workshops.'
-      },
-      {
-        title4: 'Projects',
-        description4:
-          'Create prompt-based tools, chatbots, and automation workflows for real-world tasks.'
-      }
-    ],
-
-    tools: [
-      { cid: 1, icon: FaRobot },
-      { cid: 2, icon: FaNetworkWired },
-      { cid: 3, icon: FaCode },
-      { cid: 4, icon: FaLayerGroup }
-    ],
-
-    curriculum: [
-      { cid: 1, c: 'Foundations of Generative AI & LLMs' },
-      { cid: 2, c: 'Prompt Engineering 101' },
-      { cid: 3, c: 'Using LLMs for Productivity & Content' },
-      { cid: 4, c: 'Building with OpenAI API & LangChain' },
-      { cid: 5, c: 'Integrating GenAI into Real Workflows' },
-      { cid: 6, c: 'Final Projects & Real-World Use Cases' }
-    ],
-
-    img: 'https://ik.imagekit.io/0lnr4mwox/Generative-AI-&-Prompt-Engineering-2.webp?updatedAt=1744658808387',
-
-    Certificate:
-      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
-
-    Access:
-      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
-
-    interview:
-      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
-  },
   {
     id: 48,
     lecture: '70+',
@@ -4212,89 +4315,6 @@ If you’re searching for the best ethical hacking training in Kolkata, India �
     ],
 
     img: 'https://ik.imagekit.io/0lnr4mwox/Natural-Language-Processing-(NLP)-&-LLMs-with-Hugging-Face-2.webp?updatedAt=1744658811761',
-
-    Certificate:
-      'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
-
-    Access:
-      'Lifetime access to recorded sessions, hands-on lab assignments, and downloadable resources through the Eduden dashboard.',
-
-    interview:
-      'Upon completion of the course, students will always be interviewed to assess their skills and readiness for practical applications.'
-  },
-  {
-    id: 51,
-    lecture: '60+',
-    duration: '60 Days',
-    projects: 6,
-    category: 'Data Science',
-    off: '10%',
-    title:
-      'Data Science & Analytics with Python + Power BI – 60 Days Career Track',
-    rating: 4.8,
-    image:
-      'https://ik.imagekit.io/0lnr4mwox/DATA%20SCIENCE%20(2).webp?updatedAt=1744658798729',
-
-    crsDetails: `This course is built for beginners, analysts, business students, and working professionals who want to enter the world of data-driven decision making. You'll learn how to collect, clean, analyze, and visualize data using Python and Power BI, and translate your insights into powerful business actions.
-No prior coding or analytics background? No problem. This course is beginner-friendly and focused on practical applications — not just theory.`,
-
-    overView: `To help learners build confidence and capability in working with structured and unstructured data, performing exploratory data analysis (EDA), creating dashboards, and extracting insights that drive business decisions.`,
-
-    join: [
-      { id: 1, title: 'Students, business grads, and freshers' },
-      {
-        id: 2,
-        title: 'Aspiring data analysts or business intelligence professionals'
-      },
-      {
-        id: 3,
-        title: 'Non-tech working professionals transitioning into data roles'
-      },
-      {
-        id: 4,
-        title: 'Freelancers, marketers, and managers seeking data literacy'
-      }
-    ],
-
-    features: [
-      {
-        title1: 'Assignments',
-        description1: 'Practical hands-on exercises using Python and Power BI.'
-      },
-      {
-        title2: 'Quizzes',
-        description2:
-          'Assessments to reinforce data analysis and visualization concepts.'
-      },
-      {
-        title3: 'Live Sessions',
-        description3:
-          'Interactive discussions on key concepts and real-life business cases.'
-      },
-      {
-        title4: 'Projects',
-        description4:
-          'Build real business dashboards and data analysis projects.'
-      }
-    ],
-
-    tools: [
-      { cid: 1, icon: FaChartBar },
-      { cid: 2, icon: FaPython },
-      { cid: 3, icon: FaDatabase },
-      { cid: 4, icon: FaLaptopCode }
-    ],
-
-    curriculum: [
-      { cid: 1, c: 'Introduction to Data Science & Analytics' },
-      { cid: 2, c: 'Python for Data Analytics' },
-      { cid: 3, c: 'Data Visualization with Python' },
-      { cid: 4, c: 'SQL for Analysts (Structured Query Language)' },
-      { cid: 5, c: 'Power BI Dashboards & DAX' },
-      { cid: 6, c: 'Final Project + Reporting' }
-    ],
-
-    img: 'https://ik.imagekit.io/0lnr4mwox/DATA%20SCIENCE%20(1).webp?updatedAt=1744658798175',
 
     Certificate:
       'A digital certificate of completion from Eduden after completing all modules and submitting your final project.',
