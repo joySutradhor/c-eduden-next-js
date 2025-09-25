@@ -125,8 +125,11 @@
   }
 
   /* office location styles */
+  /* .edn__location__parent {
+    @apply grid grid-cols-[10%_88%]  md:grid-cols-[5%_95%]  lg:grid-cols-[10%_90%] xl:grid-cols-[5%_95%] items-start  gap-[20px] pb-[40px];
+  } */
   .edn__location__parent {
-    @apply grid grid-cols-[10%_90%]  md:grid-cols-[5%_95%]  lg:grid-cols-[10%_90%] xl:grid-cols-[5%_95%] items-start  gap-x-[22px] pb-[40px];
+    @apply grid grid-cols-[10%_80%]  md:grid-cols-[5%_95%]  lg:grid-cols-[10%_90%] xl:grid-cols-[5%_95%] items-start  gap-[20px] pb-[40px];
   }
 
   .edn__location__icon__parent {
